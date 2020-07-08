@@ -33,13 +33,13 @@ const CommentsService = {
 
   getById(db, id) {
     return CommentsService.getAllPosts(db)
-      .where('dis.id', id)
+      .where('com.id', id)
       .first()
   },
   insertCommentsPost(db, newCommentsPost) {
     return db
       .insert(newCommentsPost)
-      .into('parkfinder_omments')
+      .into('parkfinder_comments')
       .returning('*')
       .then(([comments]) => comments)
       .then(comments =>

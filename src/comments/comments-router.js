@@ -18,8 +18,8 @@ CommentsRouter
       .catch(next)
   })
   .post(requireAuth, jsonBodyParser, (req, res, next) => {
-    const { comments, subject } = req.body 
-    const newCommentsPost =  { comments, subject } 
+    const { comment, subject, park_name } = req.body 
+    const newCommentsPost =  { comment, subject, park_name } 
 
     for (const [key, value] of Object.entries(newCommentsPost))
       if (value == null)
@@ -45,15 +45,15 @@ CommentsRouter
   .route('/:comments_id')
   .all(checkCommentsExists)
   .get((req, res) => {
-    res.json(CommentsService.serializeComments(res.comments))
+    res.json(CommentsService.serializeComments(res.comment))
     .catch(next)
   })
   .patch(jsonBodyParser, (req, res, next) => {
-    const { comment, subject } = req.body 
-    const postToUpdate =  { comment, subject } 
+    const { comment, subject, park_name } = req.body 
+    const postToUpdate =  { comment, subject, park_name } 
     CommentsService.updateLikes(
       req.app.get('db'),
-      req.params.comments_id,
+      req.params.comment_id,
       postToUpdate
     )
       .then(numRowsAffected => {
@@ -68,7 +68,7 @@ async function checkCommentsExists(req, res, next) {
   try {
     const comments = await CommentsService.getById(
       req.app.get('db'),
-      req.params.comments_id
+      req.params.comment_id
     )
 
     if (!comments)
@@ -76,7 +76,7 @@ async function checkCommentsExists(req, res, next) {
         error: `Comments doesn't exist`
       })
 
-    res.comments = comments
+    res.comment = comments
     next()
   } catch (error) {
     next(error)
