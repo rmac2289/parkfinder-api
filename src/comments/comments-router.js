@@ -73,7 +73,7 @@ async function checkCommentsExists(req, res, next) {
 
     if (!comments)
       return res.status(404).json({
-        error: `Comments doesn't exist`
+        error: `Comment doesn't exist`
       })
 
     res.comment = comments
