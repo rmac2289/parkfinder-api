@@ -2,7 +2,7 @@ const xss = require('xss')
 
 const SuggestionsService = {
 
-  getAllP(db) {
+  getAllSuggestions(db) {
     return db
       .from('parkfinder_suggestions AS sug')
       .select(
