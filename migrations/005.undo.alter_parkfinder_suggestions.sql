@@ -1,0 +1,2 @@
+ALTER TABLE parkfinder_suggestions
+DROP COLUMN description;
