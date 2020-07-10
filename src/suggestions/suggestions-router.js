@@ -27,7 +27,6 @@ SuggestionsRouter
       .then(suggestions => {
         res
           .status(201)
-          .location(path.posix.join(req.originalUrl, `/${suggestions.id}`))
           .json(SuggestionsService.serializeSuggestions(suggestions))
       })
       .catch(error)
