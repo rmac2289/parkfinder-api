@@ -1,26 +1,72 @@
-# Express Boilerplate!
+# Find Your Park 
 
-This is a boilerplate project used for starting new projects!
+[Live App](https://findyourpark.netlify.app/)
 
-## Set up
+---
+## Summary
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+Find Your Park is a web app designed to allow the user to find parks 
+in California. Users can browse hundreds of California parks by location
+via the built in map, or activities/park name using the search feature.
+If a user wishes to read comments left by other users, leave a comment themselves, or suggest a park to add, they will need to sign up for an
+account via the signup page and then login to the account. 
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+---
 
-## Scripts
+## API Documentation
 
-Start the application `npm start`
+### API Root 
+https://glacial-lowlands-79872.herokuapp.com/api
 
-Start nodemon for the application `npm run dev`
+A bearer token is required for use of the comments/suggestion API. The token can be acquired through registering with a username and password via the signup link on the navigation bar.
 
-Run the tests `npm test`
+### API Endpoints
 
-## Deploying
+The API has multiple endpoints:
+- /login
+    The authentication endpoint called when the user attempts to login. Will authenticate
+    username and password and either log the user in or provide 'incorrect username or password' response.
+- /users
+    Accepts POST request. The users endpoint is called when a new user is attempting registration. 
+- /comments
+    Accepts GET and POST requests. Comments endpoint is called when the user clicks on the 'user comments' button on a park page or attempts to post a comment to that park.
+- /suggestions
+    Accepts POST request. Suggestions endpoint is called when a user attempts to submit a 'suggest a park' form. 
+- /data
+    Accepts GET request. The data endpoint fetches data on all parks shown on the site.
 
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
+---
+
+## Screenshots
+<img src="./screenshots/home.jpg" max-width="600"/>
+<img src="./screenshots/park.jpg" max-width="600"/>
+<img src="./screenshots/login.jpg" max-width="600"/>
+<img src="./screenshots/signup.jpg" max-width="600"/>
+<img src="./screenshots/parklist.jpg" max-width="600"/>
+<img src="./screenshots/comments.jpg" max-width="600"/>
+
+
+
+---
+
+## Technologies
+
+### Codebase
+- [React](https://reactjs.org/)
+- [Node.js](https://nodejs.org/en/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Express](https://expressjs.com/)
+- [Knex](http://knexjs.org/)
+- [JWT](https://jwt.io/)
+
+### Test
+- [Mocha](https://mochajs.org/)
+- [Chai](https://www.chaijs.com/)
+- [Supertest](https://www.npmjs.com/package/supertest)
+
+### Deployment
+- [Heroku](https://dashboard.heroku.com/)
+- [GitHub(client)](https://github.com/rmac2289/parkfinder-app)
+- [Github(api)](https://github.com/rmac2289/parkfinder-api)
+- [Netlify](https://www.netlify.com/)
+
