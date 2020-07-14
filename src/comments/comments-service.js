@@ -11,12 +11,14 @@ const CommentsService = {
         'com.comment',
         'com.subject',
         'com.park_name',
+        'com.user_id',
         db.raw(
           `json_strip_nulls(
             json_build_object(
               'id', usr.id,
               'user_name', usr.user_name,
               'full_name', usr.full_name,
+              'email', usr.email,
               'date_created', usr.date_created,
               'date_modified', usr.date_modified
             )

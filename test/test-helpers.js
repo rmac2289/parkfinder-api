@@ -76,7 +76,7 @@ function makeCommentsArray(users) {
   ]
 }
 
-function makeSuggestionsArray(users) {
+function makeSuggestionsArray() {
   return [
     {
       id: 1,
@@ -125,28 +125,32 @@ function makeSuggestionsArray(users) {
 }
 
 
-function makeExpectedReview(users, comments) {
+function makeExpectedComment(users, comments) {
   const user = users
     .find(user => user.id === comments.user_id)
 
   return {
     id: comments.id,
     subject: comments.subject,
-    comment: comments.comment,
+    comments: comments.comment,
     date: comments.date,
     park_name: comments.park_name,
-    date: new Date(comments.review_date).toISOString(),
-    user: user.id
+    date: new Date(comments.date).toISOString(),
+    user_id: user.id,
+    user_name: user.user_name
   }
-}
+};
 
 
 function makeCommentsFixtures() {
   const testUsers = makeUsersArray()
   const testComments = makeCommentsArray(testUsers)
+  return { testUsers, testComments }
+};
+function makeSuggestionsFixture(){
   const testSuggestions = makeSuggestionsArray(testUsers)
-  return { testUsers, testComments, testSuggestions }
-}
+  return { testSuggestions }
+};
 
 function cleanTables(db) {
   return db.transaction(trx =>
@@ -154,16 +158,16 @@ function cleanTables(db) {
     `TRUNCATE
       parkfinder_users,
       parkfinder_comments,
-      parkfinder_suggestions,`
+      parkfinder_suggestions`
   )
   .then(() =>
       Promise.all([
-        trx.raw(`ALTER SEQUENCE parkfinder_comments_id_seq minvalue 0 START WITH 1`),
         trx.raw(`ALTER SEQUENCE parkfinder_users_id_seq minvalue 0 START WITH 1`),
         trx.raw(`ALTER SEQUENCE parkfinder_suggestions_id_seq minvalue 0 START WITH 1`),
-        trx.raw(`SELECT setval('parkfinder_comments_id_seq', 0)`),
+        trx.raw(`ALTER SEQUENCE parkfinder_comments_id_seq minvalue 0 START WITH 1`),
         trx.raw(`SELECT setval('parkfinder_users_id_seq', 0)`),
         trx.raw(`SELECT setval('parkfinder_suggestions_id_seq', 0)`),
+        trx.raw(`SELECT setval('parkfinder_comments_id_seq', 0)`),
       ])
     )
   )
@@ -222,10 +226,11 @@ function makeAuthHeader(user, secret = process.env.JWT_SECRET) {
 module.exports = {
   makeUsersArray,
   makeCommentsArray,
+  makeSuggestionsFixture,
   makeSuggestionsArray,
   makeAuthHeader,
   makeCommentsFixtures,
-  makeExpectedReview,
+  makeExpectedComment,
   seedSuggestions,
   cleanTables,
   seedCommentsTables,

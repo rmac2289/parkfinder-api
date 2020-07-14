@@ -41,26 +41,7 @@ CommentsRouter
       .catch(next)
   })
 
-CommentsRouter
-  .route('/:comments_id')
-  .all(checkCommentsExists)
-  .get((req, res) => {
-    res.json(CommentsService.serializeComments(res.comment))
-    .catch(next)
-  })
-  .patch(jsonBodyParser, (req, res, next) => {
-    const { comment, subject, park_name } = req.body 
-    const postToUpdate =  { comment, subject, park_name } 
-    CommentsService.updateLikes(
-      req.app.get('db'),
-      req.params.comment_id,
-      postToUpdate
-    )
-      .then(numRowsAffected => {
-        res.status(204).end()
-      })
-      .catch(next)
-  })
+
 
 
 /* async/await syntax for promises */
