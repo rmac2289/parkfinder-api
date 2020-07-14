@@ -147,9 +147,10 @@ function makeCommentsFixtures() {
   const testComments = makeCommentsArray(testUsers)
   return { testUsers, testComments }
 };
-function makeSuggestionsFixture(){
+function makeSuggestionsFixtures(){
+  const testUsers = makeUsersArray()
   const testSuggestions = makeSuggestionsArray(testUsers)
-  return { testSuggestions }
+  return { testSuggestions, testUsers }
 };
 
 function cleanTables(db) {
@@ -187,7 +188,7 @@ function seedUsers(db, users) {
         )
       )
   }
-  function seedSuggestions(db) {
+  function seedSuggestions(db, suggestions) {
     const preppedSuggestions = suggestions.map(suggestion => ({
       ...suggestion,
       park_name: suggestion.park_name,
@@ -226,7 +227,7 @@ function makeAuthHeader(user, secret = process.env.JWT_SECRET) {
 module.exports = {
   makeUsersArray,
   makeCommentsArray,
-  makeSuggestionsFixture,
+  makeSuggestionsFixtures,
   makeSuggestionsArray,
   makeAuthHeader,
   makeCommentsFixtures,

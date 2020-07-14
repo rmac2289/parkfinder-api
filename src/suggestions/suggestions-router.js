@@ -1,7 +1,6 @@
 const express = require('express')
 const path = require('path')
 const SuggestionsService = require('./suggestions-service')
-const { requireAuth } = require('../middleware/jwt-auth')
 
 const SuggestionsRouter = express.Router()
 const jsonBodyParser = express.json()
@@ -10,14 +9,14 @@ const jsonBodyParser = express.json()
 
 SuggestionsRouter
   .route('/')
-  .post(requireAuth, jsonBodyParser, (req, res, next) => {
+  .post(jsonBodyParser, (req, res, next) => {
     const { location, park_name, description } = req.body 
     const newSuggestions =  { location, park_name, description } 
 
     for (const [key, value] of Object.entries(newSuggestions))
-      if (value == null)
+      if (value == null || value == '')
         return res.status(400).json({
-          error: `Missing '${key}' in request body`
+          error: `Missing park_name, location, or description in request body`
         })
 
     SuggestionsService.insertSuggestions(

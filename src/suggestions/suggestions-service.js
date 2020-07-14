@@ -35,7 +35,7 @@ const SuggestionsService = {
     return {
       id: suggestions.id,
       park_name: xss(suggestions.park_name),
-      sugments: xss(suggestions.location),
+      location: xss(suggestions.location),
       description: xss(suggestions.description)
     }
   }
