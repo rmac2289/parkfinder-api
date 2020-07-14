@@ -1,11 +1,11 @@
-const express = require('express')
-const path = require('path')
-const SuggestionsService = require('./suggestions-service')
+const express = require('express');
+const path = require('path');
+const SuggestionsService = require('./suggestions-service');
 
-const SuggestionsRouter = express.Router()
-const jsonBodyParser = express.json()
+const SuggestionsRouter = express.Router();
+const jsonBodyParser = express.json();
 
-// routes for suggestions //
+// routes for park suggestions //
 
 SuggestionsRouter
   .route('/')
@@ -30,7 +30,7 @@ SuggestionsRouter
           .json(SuggestionsService.serializeSuggestions(suggestions))
       })
       .catch(next)
-  })
+  });
   
 
-module.exports = SuggestionsRouter
+module.exports = SuggestionsRouter;

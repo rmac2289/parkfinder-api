@@ -1,5 +1,5 @@
-const bcrypt = require('bcryptjs')
-const jwt = require('jsonwebtoken')
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
 
 function makeUsersArray() {
   return [
@@ -36,7 +36,7 @@ function makeUsersArray() {
       email: 'test@test4.com'
     },
   ]
-}
+};
 
 function makeCommentsArray(users) {
   return [
@@ -74,7 +74,7 @@ function makeCommentsArray(users) {
     },
     
   ]
-}
+};
 
 function makeSuggestionsArray() {
   return [
@@ -122,7 +122,7 @@ function makeSuggestionsArray() {
     },
     
   ];
-}
+};
 
 
 function makeExpectedComment(users, comments) {
@@ -172,7 +172,7 @@ function cleanTables(db) {
       ])
     )
   )
-}
+};
 
 function seedUsers(db, users) {
     const preppedUsers = users.map(user => ({
@@ -187,7 +187,7 @@ function seedUsers(db, users) {
           [users[users.length - 1].id],
         )
       )
-  }
+  };
   function seedSuggestions(db, suggestions) {
     const preppedSuggestions = suggestions.map(suggestion => ({
       ...suggestion,
@@ -201,7 +201,7 @@ function seedUsers(db, users) {
           `SELECT setval('parkfinder_suggestions_id_seq', ?)`,
           [suggestions[suggestions.length - 1].id]
         ))
-  }
+  };
 
   function seedCommentsTables(db, users, comments) {
     // use a transaction to group the queries and auto rollback on any failure
@@ -214,7 +214,7 @@ function seedUsers(db, users) {
         [comments[comments.length - 1].id],
       )
     })
-  }
+  };
     
 function makeAuthHeader(user, secret = process.env.JWT_SECRET) {
   const token = jwt.sign({ user_id: user.id }, secret, {
@@ -222,7 +222,7 @@ function makeAuthHeader(user, secret = process.env.JWT_SECRET) {
          algorithm: 'HS256',
        })
   return `Bearer ${token}`
-}
+};
 
 module.exports = {
   makeUsersArray,
@@ -236,4 +236,4 @@ module.exports = {
   cleanTables,
   seedCommentsTables,
   seedUsers,
-}
+};

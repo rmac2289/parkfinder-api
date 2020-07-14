@@ -1,4 +1,4 @@
-const xss = require('xss')
+const xss = require('xss');
 
 const SuggestionsService = {
 
@@ -39,6 +39,6 @@ const SuggestionsService = {
       description: xss(suggestions.description)
     }
   }
-}
+};
 
-module.exports = SuggestionsService
+module.exports = SuggestionsService;

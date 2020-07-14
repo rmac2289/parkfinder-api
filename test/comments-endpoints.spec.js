@@ -1,14 +1,14 @@
-const knex = require('knex')
-const app = require('../src/app')
-const helpers = require('./test-helpers')
+const knex = require('knex');
+const app = require('../src/app');
+const helpers = require('./test-helpers');
 
 describe('Comments Endpoints', function() {
-  let db
+  let db;
 
   const {
     testUsers,
     testComments,
-  } = helpers.makeCommentsFixtures()
+  } = helpers.makeCommentsFixtures();
 
   before('make knex instance', () => {
     db = knex({
@@ -56,4 +56,4 @@ describe('Comments Endpoints', function() {
       })
     })
   })
-})
+});

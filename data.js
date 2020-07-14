@@ -9108,5 +9108,5 @@ const parks =
         ]
     },
     ]
-}
+};
 module.exports = parks;

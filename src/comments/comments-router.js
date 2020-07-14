@@ -1,10 +1,10 @@
-const express = require('express')
-const path = require('path')
-const CommentsService = require('./comments-service')
-const { requireAuth } = require('../middleware/jwt-auth')
+const express = require('express');
+const path = require('path');
+const CommentsService = require('./comments-service');
+const { requireAuth } = require('../middleware/jwt-auth');
 
-const CommentsRouter = express.Router()
-const jsonBodyParser = express.json()
+const CommentsRouter = express.Router();
+const jsonBodyParser = express.json();
 
 // routes for Comments //
 
@@ -62,6 +62,6 @@ async function checkCommentsExists(req, res, next) {
   } catch (error) {
     next(error)
   }
-}
+};
 
-module.exports = CommentsRouter
+module.exports = CommentsRouter;

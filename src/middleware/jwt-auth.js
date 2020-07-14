@@ -3,7 +3,7 @@ const AuthService = require('../auth/auth-service');
 // jwt auth - issues token upon login //
 
 function requireAuth(req, res, next) {
-  const authToken = req.get('Authorization') || ''
+  const authToken = req.get('Authorization') || '';
 
   let bearerToken
   if (!authToken.toLowerCase().startsWith('bearer ')) {
@@ -37,4 +37,4 @@ function requireAuth(req, res, next) {
 
 module.exports = {
   requireAuth,
-}
+};

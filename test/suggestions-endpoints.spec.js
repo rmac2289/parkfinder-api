@@ -1,15 +1,15 @@
-const knex = require('knex')
-const app = require('../src/app')
-const helpers = require('./test-helpers')
+const knex = require('knex');
+const app = require('../src/app');
+const helpers = require('./test-helpers');
 
 describe('Suggestions Endpoints', function() {
-  let db
+  let db;
 
   const {
     testUsers,
     testSuggestions,
     
-  } = helpers.makeSuggestionsFixtures()
+  } = helpers.makeSuggestionsFixtures();
 
   before('make knex instance', () => {
     db = knex({
@@ -78,4 +78,4 @@ describe('Suggestions Endpoints', function() {
       })
     })
   })
-})
+});

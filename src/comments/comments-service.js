@@ -1,4 +1,4 @@
-const xss = require('xss')
+const xss = require('xss');
 
 const CommentsService = {
 
@@ -61,6 +61,6 @@ const CommentsService = {
       user_name: user.user_name
     }
   }
-}
+};
 
-module.exports = CommentsService
+module.exports = CommentsService;
