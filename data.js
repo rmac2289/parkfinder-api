@@ -3687,7 +3687,7 @@ const parks =
         {
             "fullName": "Garrapata State Park",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3208.5683235597735!2d-121.90967478531599!3d36.467987194030194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de953a979ee27%3A0x46a0eca599cc4a5f!2sGarrapata%20State%20Park!5e0!3m2!1sen!2sus!4v1593833880922!5m2!1sen!2sus",
-            "latLng": ["36.4679829", "121.9074861"],
+            "latLng": ["36.4679829", "-121.9074861"],
             "url": "https://www.parks.ca.gov/?page_id=579",
             "address": "Garrapata State Park, California 1, Carmel-by-the-Sea, CA",
             "images": [{
@@ -4805,7 +4805,7 @@ const parks =
         {
             "fullName": "Marina State Beach",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3199.2388641051025!2d-121.81147278530895!3d36.69279758143887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808dfd2b2beb4001%3A0xb40cd6d5de7cef90!2sMarina%20State%20Beach!5e0!3m2!1sen!2sus!4v1593836347532!5m2!1sen!2sus",
-            "latLng": ["36.6927933", "121.8092841"],
+            "latLng": ["36.6927933", "-121.8092841"],
             "url": "https://www.parks.ca.gov/?page_id=581",
             "address": "Marina State Beach, Reservation Road, Marina, CA",
             "images": [{
@@ -4939,7 +4939,7 @@ const parks =
         {
             "fullName": "Mendocino Headlands State Park",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3087.085970503275!2d-123.80842278522397!3d39.308974730184424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80804d306a6b97eb%3A0x63db83955bca902a!2sMendocino%20Headlands%20State%20Park!5e0!3m2!1sen!2sus!4v1593836580320!5m2!1sen!2sus",
-            "latLng": ["39.30897059999999", "123.8062341"],
+            "latLng": ["39.30897059999999", "-123.8062341"],
             "url": "https://www.parks.ca.gov/?page_id=442",
             "address": "Mendocino Headlands State Park, Mendocino, CA",
             "images": [{
@@ -5545,7 +5545,7 @@ const parks =
         {
             "fullName": "Pescadero State Beach",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50806.20544475875!2d-122.44832812081653!3d37.26222920461874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f06e8adaef087%3A0x7a60d7fa0fcdacc2!2sPescadero%20State%20Beach!5e0!3m2!1sen!2sus!4v1593837621754!5m2!1sen!2sus",
-            "latLng": ["7.2621666", "122.4133085"],
+            "latLng": ["7.2621666", "-122.4133085"],
             "url": "https://www.parks.ca.gov/?page_id=522",
             "address": "Pescadero State Beach, California",
             "images": [{
@@ -6715,7 +6715,7 @@ const parks =
         {
             "fullName": "South Carlsbad State Beach",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26737.441572855038!2d-117.3383982935075!3d33.10434617552488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc72d0b310ce6b%3A0x7b6f0e58b6805de0!2sSouth%20Carlsbad%20State%20Beach!5e0!3m2!1sen!2sus!4v1593829115232!5m2!1sen!2sus",
-            "latLng": ["33.1026212", "117.320145"],
+            "latLng": ["33.1026212", "-117.320145"],
             "url": "https://www.parks.ca.gov/?page_id=660",
             "address": "South Carlsbad State Beach, California",
             "images": [{
@@ -8512,7 +8512,7 @@ const parks =
     {
         "fullName": "Vargas Plateau Regional Park",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.162696920556!2d-121.9326797!3d37.57478640000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fc109baa0c0bd%3A0xd9386b9e4a587286!2sVargas%20Plateau%20Regional%20Park!5e0!3m2!1sen!2sus!4v1594454488807!5m2!1sen!2sus",
-        "latLng": ["37.574969", "121.932283"],
+        "latLng": ["37.574969", "-121.932283"],
         "url": "https://www.ebparks.org/parks/vargas/",
         "address": "2536 Morrison Canyon Rd, Fremont, CA 94539",
         "images": [{
@@ -8849,7 +8849,7 @@ const parks =
     {
         "fullName": "Purisima Creek Redwoods Preserve",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.5937528126988!2d-122.36036860000002!3d37.423076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fa0bc8ae2a3a9%3A0x919afe8fafb67a7f!2sPurisima%20Creek%20Redwoods%20Preserve!5e0!3m2!1sen!2sus!4v1594460354788!5m2!1sen!2sus",
-        "latLng": ["37.423200", "122.359800"],
+        "latLng": ["37.423200", "-122.359800"],
         "url": "https://www.openspace.org/preserves/purisima-creek-redwoods",
         "address": "Purisima Creek Redwoods Preserve, Half Moon Bay, CA",
         "images": [{
@@ -9046,7 +9046,7 @@ const parks =
     {
         "fullName": "Teague Hill Preserve",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.597332842366!2d-122.2888715!3d37.4229914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fa6c82bb95517%3A0x499dd11bef97c748!2sTeague%20Hill%20Preserve!5e0!3m2!1sen!2sus!4v1594460817136!5m2!1sen!2sus",
-        "latLng": ["37.423175", "122.288357"],
+        "latLng": ["37.423175", "-122.288357"],
         "url": "https://www.openspace.org/preserves/teague-hill",
         "address": "Teague Hill Preserve, Summit Spring Road, Woodside, CA",
         "images": [{
