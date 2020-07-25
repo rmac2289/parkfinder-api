@@ -2015,7 +2015,7 @@ const parks =
         {
             "fullName": "Admiral William Standley State Recreation Area",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12288.618807311055!2d-123.62703127272303!3d39.646232793850274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8081d0078661ac39%3A0xb14dd928ecd68e19!2sAdmiral%20Standley%20State%20Recreation%20Area!5e0!3m2!1sen!2sus!4v1593826730810!5m2!1sen!2sus",
-            "latLng": ["39.646217", "123.618276"],
+            "latLng": ["39.646217", "-123.618276"],
             "url": "https://www.parks.ca.gov/?page_id=424",
             "address": "Admiral Standley State Recreation Area, Branscomb Road, Branscomb, CA",
             "images": [{
