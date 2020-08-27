@@ -9107,6 +9107,397 @@ const parks =
             "Picnicking"
         ]
     },
+    {
+        "fullName": "Applegate Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3100.6889875698685!2d-120.99203405000408!3d38.99959397945472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m1!1m0!5e0!3m2!1sen!2sus!4v1598527178580!5m2!1sen!2sus",
+        "latLng": ["38.999594", "-120.989840"],
+        "url": "https://www.placer.ca.gov/5968/Applegate-Park",
+        "address": "290 Applegate School Road, Applegate, CA 95703",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentId=38678",
+            "altText": "park sign"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Hiking",
+            "Picnicking",
+        ]
+    },
+    {
+        "fullName": "Bear River Campground",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3097.0022416067877!2d-120.98852145000046!3d39.08364667944199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b0b7d093cf649%3A0xf76f243ab179f28d!2sBear%20River%20Park%20and%20Campground!5e0!3m2!1sen!2sus!4v1598527328424!5m2!1sen!2sus",
+        "latLng": ["39.083738", "-120.985791"],
+        "url": "https://www.placer.ca.gov/5951/Bear-River-Campground",
+        "address": "2500 Campground Road, Colfax, CA 95713",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=38572",
+            "altText": "park"
+        }],
+        "hours": "Day use areas open 1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Hiking",
+            "Camping",
+            "Fishing",
+            "Swimming",
+            "Picnicking",
+            "Wildlife Watching"
+        ]
+    },
+    {
+        "fullName": "Cisco Grove Gould Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3087.0087758429304!2d-120.54559004999071!3d39.3107245794085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b94a4f20163f7%3A0xbf646a6a2eaacfd1!2sCisco%20Grove%20Gould%20Park!5e0!3m2!1sen!2sus!4v1598527552834!5m2!1sen!2sus",
+        "latLng": ["39.310824", "-120.542420"],
+        "url": "https://www.placer.ca.gov/5974/Cisco-Grove-Gould-Park",
+        "address": "100 Cisco Road, Emigrant Gap, CA 95715",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39401",
+            "altText": "historic building"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Hiking",
+            "Fishing",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Commons Beach",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.2219746909354!2d-120.14372774999674!3d39.169674179429165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80997d75e6d1e9e1%3A0xd01f4073a093740e!2sCommons%20Beach!5e0!3m2!1sen!2sus!4v1598527674537!5m2!1sen!2sus",
+        "latLng": ["39.169865", "-120.140922"],
+        "url": "https://www.placer.ca.gov/6020/Commons-Beach",
+        "address": "280 N Lake Boulevard, Tahoe City, CA 96145",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39015",
+            "altText": "beach"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset",
+        "activities": [
+            "Swimming",
+            "Boating",
+            "Biking",
+            "Hiking",
+            "Wildlife Watching",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Douglas Ranch Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.5710205822165!2d-121.2073501500147!3d38.75060517949339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b1e261cf10b45%3A0xe7ba7f1cab4dd81!2sDouglas%20Ranch%20Park!5e0!3m2!1sen!2sus!4v1598527831981!5m2!1sen!2sus",
+        "latLng": ["38.750764", "-121.204630"],
+        "url": "https://www.placer.ca.gov/6044/Douglas-Ranch-Park",
+        "address": "5250 Stirling Street, Granite Bay, CA 95746",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39727",
+            "altText": "park sign"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Hiking",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Doyle Ranch Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.1029821744314!2d-121.37231105001523!3d38.73839897949536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b275e0d1999c7%3A0xef37dd7d6601327c!2sDoyle%20Ranch%20Park!5e0!3m2!1sen!2sus!4v1598527998058!5m2!1sen!2sus",
+        "latLng": ["38.738591", "-121.369677"],
+        "url": "https://www.placer.ca.gov/6119/Doyle-Ranch-Park",
+        "address": "4814 Oreanna Court, Roseville, CA 95678",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=40156",
+            "altText": "park"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Hiking",
+            "Biking",
+            "Horseback Riding",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Dry Creek Community Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.2858993116706!2d-121.36483495001535!3d38.73420107949593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b27292020572b%3A0x37da5021a3c1ad12!2sDry%20Creek%20Community%20Park!5e0!3m2!1sen!2sus!4v1598528074987!5m2!1sen!2sus",
+        "latLng": ["38.734318", "-121.362040"],
+        "url": "https://www.placer.ca.gov/6079/Dry-Creek-Community-Park",
+        "address": "9245 Walerga Road, Roseville, CA 95747",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=40453",
+            "altText": "park"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Hiking",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Dutch Flat Community Center Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3091.6807219565885!2d-120.8396990499952!3d39.20470297942388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b9eeff739ec25%3A0xe4bdf80eb980ea8f!2sDutch%20flat%20community%20center!5e0!3m2!1sen!2sus!4v1598528246463!5m2!1sen!2sus",
+        "latLng": ["39.204952", "-120.837044"],
+        "url": "https://www.placer.ca.gov/5999/Dutch-Flat-Community-Center-Park",
+        "address": "933 Stockton Street, Dutch Flat, CA 95714",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39229",
+            "altText": "park"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Foresthill Leroy E. Botts Memorial Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3099.684850834129!2d-120.81879130000304!3d39.02250197945122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ba61013eabdeb%3A0xf0ac2d702ecb9ad6!2sLeroy%20E%20Botts%20Memorial%20Park%2C%20Foresthill%2C%20CA%2095631!5e0!3m2!1sen!2sus!4v1598528394282!5m2!1sen!2sus",
+        "latLng": ["39.022785, -120.815932"],
+        "url": "https://www.placer.ca.gov/6000/Foresthill-Leroy-E-Botts-Memorial-Park",
+        "address": "24601 Harrison Street, Foresthill, CA 95631",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39102",
+            "altText": "trees"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Hiking",
+            "Biking",
+            "Swimming",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Granite Bay Community Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.9045339849827!2d-121.189660750015!3d38.742952879494574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ae1e67345bf93%3A0xbc147f3d3f4003d9!2sGranite%20Bay%20Park!5e0!3m2!1sen!2sus!4v1598528528055!5m2!1sen!2sus",
+        "latLng": ["38.743145", "-121.187113"],
+        "url": "https://www.placer.ca.gov/6043/Granite-Bay-Community-Park",
+        "address": "6010 Douglas Boulevard, Granite Bay, CA 95746",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39740",
+            "altText": "baseball field"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset",
+        "activities": [
+            "Hiking",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Griffith Quarry Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3107.2627133281967!2d-121.1653910500105!3d38.849342979477875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b1be697f81cb3%3A0xcfecf3eb9507bfa3!2sGriffith%20Quarry%20Park%20%26%20Museum!5e0!3m2!1sen!2sus!4v1598528700067!5m2!1sen!2sus",
+        "latLng": ["38.849485", "-121.162607"],
+        "url": "https://www.placer.ca.gov/6001/Griffith-Quarry-Park",
+        "address": "7405 Rock Springs Road, Penryn, CA 95663",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39108",
+            "altText": "park"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Hiking",
+            "Picnicking",
+            "Museum Exhibits"
+        ]
+    },
+    {
+        "fullName": "Heritage Plaza Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.139751061983!2d-120.14203624999665!3d39.17154357942889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80997d75b3d60b89%3A0xb8c4a99366a60481!2s570%20N%20Lake%20Blvd%2C%20Tahoe%20City%2C%20CA%2096145!5e0!3m2!1sen!2sus!4v1598528834788!5m2!1sen!2sus",
+        "latLng": ["39.171677", " -120.139542"],
+        "url": "https://www.placer.ca.gov/6021/Heritage-Plaza-Park",
+        "address": "570 N Lake Boulevard, Tahoe City, CA 96145",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39057",
+            "altText": "bear"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Hiking",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Hidden Falls Regional Park",
+        "map": "",
+        "latLng": ["", ""],
+        "url": "https://www.placer.ca.gov/6106/Hidden-Falls-Regional-Park",
+        "address": "7587 Mears Place, Auburn, CA 95602",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39941",
+            "altText": "park"
+        }],
+        "hours": "Park hours are posted daily by park rangers. Please note closure information and exit the park before closing.",
+        "activities": [
+            "Hiking",
+            "Fishing",
+            "Biking",
+            "Horseback Riding",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Lake Forest Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3092.6916732294535!2d-120.11747903465195!3d39.18172956329901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80997d0186091381%3A0x64072f9bb92f1a5d!2sLake%20Forest%20Beach!5e0!3m2!1sen!2sus!4v1598529084977!5m2!1sen!2sus",
+        "latLng": ["39.180948", " -120.113901"],
+        "url": "https://www.placer.ca.gov/6028/Lake-Forest-Park",
+        "address": "Bristlecone Drive and Aqua Drive, Dollar Point, CA 96145",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39047",
+            "altText": "Lake"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Swimming",
+            "Wildlife Watching",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Miner's Reserve Nature Reserve",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.28287642144!2d-121.16619615001441!3d38.75721547949233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ae2073fb12fb1%3A0x17ce5305e28ae322!2s7530%20Auburn%20Folsom%20Rd%2C%20Granite%20Bay%2C%20CA%2095746!5e0!3m2!1sen!2sus!4v1598529283283!5m2!1sen!2sus",
+        "latLng": ["38.757475, -121.163670"],
+        "url": "https://www.placer.ca.gov/6003/Miners-Ravine-Nature-Reserve",
+        "address": "7530 Auburn Folsom Road, Granite Bay, CA 95746",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39121",
+            "altText": "park sign"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Hiking",
+            "Wildlife Watching"
+        ]
+    },
+    {
+        "fullName": "Moondunes Beach",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6180.456719119309!2d-120.04508402362116!3d39.23768751621918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809964cbb007efef%3A0x81b6bce43e1f3553!2sMoon%20Dune%20Beach!5e0!3m2!1sen!2sus!4v1598529572006!5m2!1sen!2sus",
+        "latLng": ["39.238851", "-120.040589"],
+        "url": "https://www.placer.ca.gov/6082/Moondunes-Beach",
+        "address": "7456 N Lake Boulevard, Tahoe Vista, CA 96148",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=40757",
+            "altText": "Beach"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Swimming",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Secline Beach",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24721.92643449323!2d-120.04968796900525!3d39.23740498279739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80997b32a942e6ad%3A0xfb70cf8e34a28f7!2sSecline%20Beach!5e0!3m2!1sen!2sus!4v1598529768747!5m2!1sen!2sus",
+        "latLng": ["39.237408", "-120.032423"],
+        "url": "https://www.placer.ca.gov/6084/Secline-Beach",
+        "address": "141 Secline Street, Kings Beach, CA 96143",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=40762",
+            "altText": "Beach"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Swimming",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Speedboat Beach",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.8721725335995!2d-120.01082504999447!3d39.2230687794212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80997ae886eef1b3%3A0x78b59b82cd2eae98!2sSpeedboat%20Beach!5e0!3m2!1sen!2sus!4v1598529945476!5m2!1sen!2sus",
+        "latLng": ["39.223193", "-120.008041"],
+        "url": "https://www.placer.ca.gov/6023/Speedboat-Beach",
+        "address": "Lake Street, Kings Beach, CA 96143",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39216",
+            "altText": "beach"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunrise.",
+        "activities": [
+            "Swimming",
+            "Boating",
+            "Wildlife Watching",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Squaw Valley Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3091.6982006694807!2d-120.20292494999521!3d39.204305879424005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809bd83473421dcd%3A0xb0b0de419af85a46!2sSquaw%20Valley%20Park!5e0!3m2!1sen!2sus!4v1598530080181!5m2!1sen!2sus",
+        "latLng": ["39.204289", "-120.200785"],
+        "url": "https://www.placer.ca.gov/6024/Squaw-Valley-Park",
+        "address": "101 Squaw Valley Road, Olympic Valley, CA 96146",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39007",
+            "altText": "park"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset. Closed during winter season.",
+        "activities": [
+            "Hiking",
+            "Biking",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Sterling Pointe Equestrian Trail",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3109.328692084721!2d-121.11335635001245!3d38.80202127948525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b1d10637523ff%3A0x75af5298cb227347!2sSterling%20Pointe%20Equestrian%20Staging%20Area!5e0!3m2!1sen!2sus!4v1598530245424!5m2!1sen!2sus",
+        "latLng": ["38.802138", "-121.110465"],
+        "url": "https://www.placer.ca.gov/6035/Sterling-Pointe-Equestrian-Staging-Area-",
+        "address": "9688 Sterling Pointe Court, Loomis, CA 95650",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39182",
+            "altText": "Trail"
+        },
+        {
+        "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39171",
+        "altText": "Park"
+    }],
+        "hours": "1/2 hour before sunrise to 1/2 after sunrise.",
+        "activities": [
+            "Hiking",
+            "Biking",
+            "Swimming",
+            "Horseback Riding",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Traylor Ranch Nature Preserve",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6214.439249350976!2d-121.21462415609282!3d38.8503294179105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b1904bd09fca5%3A0x9d99da44590b62b4!2sTraylor%20Ranch%20Bird%20Sanctuary%20and%20Nature%20Reserve%2C%20Penryn%2C%20CA%2095663!5e0!3m2!1sen!2sus!4v1598530412306!5m2!1sen!2sus",
+        "latLng": ["38.850346", "-121.208927"],
+        "url": "https://www.placer.ca.gov/6085/Traylor-Ranch-Nature-Reserve-and-Bird-Sa",
+        "address": "5050 English Colony Road, Penryn, CA 95663",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=40873",
+            "altText": "Park sign"
+        },
+        {
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=40868",
+            "altText": "Park"
+        },
+        {
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=40869",
+            "altText": "Park"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Hiking",
+            "Wildlife Watching",
+            "Horseback Riding",
+            "Picnicking"
+        ]
+    },
+    {
+        "fullName": "Todd Valley Pond Park",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.7736423744077!2d-120.8783819500041!3d38.99766217945497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ba7e11ace1f1f%3A0x3cac0425b33e21c6!2s20765-20601%20Todd%20Valley%20Rd%2C%20Foresthill%2C%20CA%2095631!5e0!3m2!1sen!2sus!4v1598530622364!5m2!1sen!2sus",
+        "latLng": ["38.997979", "-120.874858"],
+        "url": "https://www.placer.ca.gov/6007/Todd-Valley-Pond-Park",
+        "address": "Foresthill Road/Todd Valley Road, Foresthill, CA 95631",
+        "images": [{
+            "url": "https://www.placer.ca.gov/ImageRepository/Document?documentID=39038",
+            "altText": "pond"
+        }],
+        "hours": "1/2 hour before sunrise to 1/2 hour after sunset.",
+        "activities": [
+            "Hiking",
+            "Fishing",
+            "Picnicking"
+        ]
+    },
+
     ]
 };
 module.exports = parks;
