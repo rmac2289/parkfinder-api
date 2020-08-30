@@ -11,7 +11,8 @@
     "predeploy": "npm audit",
     "test": "mocha --require test/setup.js",
     "dev": "nodemon src/server.js",
-    "deploy": "git push heroku master"
+    "deploy": "git push heroku master",
+    "format": "pretty-quick"
   },
   "keywords": [],
   "author": "",
@@ -37,6 +38,8 @@
     "mocha": "^7.1.2",
     "nodemon": "^2.0.3",
     "postgrator-cli": "^3.3.0",
+    "prettier": "^2.1.1",
+    "pretty-quick": "^3.0.0",
     "supertest": "^4.0.2"
   }
 }

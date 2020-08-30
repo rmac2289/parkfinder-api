@@ -1,17 +1,16 @@
-const xss = require('xss');
+const xss = require("xss");
 
 const CommentsService = {
-
   getAllPosts(db) {
     return db
-      .from('parkfinder_comments AS com')
+      .from("parkfinder_comments AS com")
       .select(
-        'com.id',
-        'com.date',
-        'com.comment',
-        'com.subject',
-        'com.park_name',
-        'com.user_id',
+        "com.id",
+        "com.date",
+        "com.comment",
+        "com.subject",
+        "com.park_name",
+        "com.user_id",
         db.raw(
           `json_strip_nulls(
             json_build_object(
@@ -25,32 +24,24 @@ const CommentsService = {
           ) AS "user"`
         )
       )
-      .leftJoin(
-        'parkfinder_users AS usr',
-        'com.user_id',
-        'usr.id',
-      )
-      .groupBy('com.id', 'usr.id')
+      .leftJoin("parkfinder_users AS usr", "com.user_id", "usr.id")
+      .groupBy("com.id", "usr.id");
   },
 
   getById(db, id) {
-    return CommentsService.getAllPosts(db)
-      .where('com.id', id)
-      .first()
+    return CommentsService.getAllPosts(db).where("com.id", id).first();
   },
   insertCommentsPost(db, newCommentsPost) {
     return db
       .insert(newCommentsPost)
-      .into('parkfinder_comments')
-      .returning('*')
+      .into("parkfinder_comments")
+      .returning("*")
       .then(([comments]) => comments)
-      .then(comments =>
-        CommentsService.getById(db, comments.id)
-      )
+      .then((comments) => CommentsService.getById(db, comments.id));
   },
 
   serializeComments(comments) {
-    const { user } = comments
+    const { user } = comments;
     return {
       id: comments.id,
       date: new Date(comments.date),
@@ -58,9 +49,9 @@ const CommentsService = {
       subject: comments.subject,
       park_name: comments.park_name,
       user_id: user.id || {},
-      user_name: user.user_name
-    }
-  }
+      user_name: user.user_name,
+    };
+  },
 };
 
 module.exports = CommentsService;
