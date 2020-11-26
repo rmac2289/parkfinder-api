@@ -1,1 +1,0 @@
-DROP TABLE IF EXISTS parkfinder_comments CASCADE;
