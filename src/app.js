@@ -10,6 +10,9 @@ const authRouter = require("./auth/auth-router");
 const commentsRouter = require("./comments/comments-router");
 const suggestionsRouter = require("./suggestions/suggestions-router");
 const parks = require("../data");
+const { Magic } = require("@magic-sdk/admin");
+
+const mAdmin = new Magic(process.env.MAGIC_SECRET_KEY); // ✨
 
 const app = express();
 
